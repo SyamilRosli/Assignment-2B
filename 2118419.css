@@ -1,0 +1,166 @@
+header {
+    text-align: center;
+    background-image: linear-gradient(to right, #000000, #262626);
+    color: #fff;
+    padding: 50px;
+  }
+  
+h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  
+header p {
+    font-size: 30px;
+    font-style: italic;
+  }
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigation {
+    height: 100%;
+    width: 200px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+  }
+  
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+.navigation a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: background-color 0.3s ease;
+  }
+  
+.navigation a:hover {
+    background-color: #555;
+  }
+  
+html{
+    background: linear-gradient(to right, #19191A, #5B5B5B);
+    color: whitesmoke;
+}
+
+main{
+    margin-bottom: 10px;
+}
+
+.Intro p{
+    text-align: center;
+    font-size: larger;
+}
+
+.Location {
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+    padding: 10px;
+}
+
+.Location2 p{
+    margin-left: 50px;
+}
+
+.Location iframe {
+    margin-left: 200px;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+table {
+    border-collapse: collapse;
+    width: 48%;
+    margin-right: 2%;
+  }
+  
+th,td {
+    border: 1px solid antiquewhite;
+    text-align: center;
+    padding: 8px;
+  }
+  
+.video {
+    width: 48%;
+    text-align: center;
+    margin-left: 2%;
+  }
+  
+.video p {
+    margin-bottom: 10px;
+  }
+  
+iframe {
+    border: none;
+    border-radius: 8px;
+  }
+  
+
+body {
+    width: 100%;
+    margin: auto;
+    font-family: 'Instrument Serif', serif;
+    line-height: 1.2;
+    letter-spacing: 0.6px;
+}
+
+footer {
+    background: linear-gradient(to right, #1c1c1c, #272727);
+    color: #fff;
+    padding: 30px;
+    font-family: 'Instrument Serif', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .leftside,
+  .centreside,
+  .rightside {
+    padding: 15px;
+  }
+  
+  .leftside label,
+  .centreside label,
+  .rightside legend {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .leftside input,
+  .leftside textarea,
+  .centreside textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #eee;
+    margin-bottom: 10px;
+  }
+  
+  .rightside fieldset {
+    border: none;
+  }
